@@ -1,0 +1,11 @@
+bs4
+
+requests
+
+datetime
+
+fastapi
+
+uvicorn
+
+psycopg2
