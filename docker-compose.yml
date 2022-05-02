@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  teste-postgres-compose:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: "postgres"
+    ports:
+      - "15432:5432"
+    volumes:
+      - /home/denis/driva/api_crawler_livro_postgres/app 
