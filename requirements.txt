@@ -9,4 +9,5 @@ fastapi
 uvicorn
 
 psycopg2
+
 socket
